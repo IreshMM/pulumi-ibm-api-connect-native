@@ -1,2 +1,2 @@
-// Package xyz exports types, functions, subpackages for provisioning xyz resources.
-package xyz
+// Package ibm-api-connect exports types, functions, subpackages for provisioning ibm-api-connect resources.
+package ibm-api-connect

@@ -1,4 +1,4 @@
-module provider-xyz-native
+module provider-ibm-api-connect-native
 
 go 1.20
 

@@ -1,13 +1,13 @@
-name: provider-xyz-native
+name: provider-ibm-api-connect-native
 runtime: yaml
 plugins:
   providers:
-    - name: xyz
+    - name: ibm-api-connect
       path: ../../bin
 
 resources:
   myRandomResource:
-    type: xyz:Random
+    type: ibm-api-connect:Random
     properties:
       length: 24
 

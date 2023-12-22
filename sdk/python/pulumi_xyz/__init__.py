@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "ibm-api-connect",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_ibm-api-connect",
   "classes": {
-   "xyz:index:Random": "Random"
+   "ibm-api-connect:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "ibm-api-connect",
+  "token": "pulumi:providers:ibm-api-connect",
+  "fqn": "pulumi_ibm-api-connect",
   "class": "Provider"
  }
 ]

@@ -1,9 +1,9 @@
 PROJECT_NAME := Pulumi Xyz Resource Provider
 
-PACK             := xyz
+PACK             := ibm-api-connect
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @pulumi/xyz
+PROJECT          := github.com/pulumi/pulumi-ibm-api-connect
+NODE_MODULE_NAME := @pulumi/ibm-api-connect
 NUGET_PKG_NAME   := Pulumi.Xyz
 
 PROVIDER        := pulumi-resource-${PACK}

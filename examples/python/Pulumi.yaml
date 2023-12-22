@@ -1,6 +1,6 @@
-name: provider-xyz-native
+name: provider-ibm-api-connect-native
 runtime: python
 plugins:
   providers:
-    - name: xyz
+    - name: ibm-api-connect
       path: ../../bin

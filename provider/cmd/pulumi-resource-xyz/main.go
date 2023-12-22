@@ -17,8 +17,8 @@ package main
 import (
 	p "github.com/pulumi/pulumi-go-provider"
 
-	xyz "github.com/pulumi/pulumi-xyz/provider"
+	ibm-api-connect "github.com/pulumi/pulumi-ibm-api-connect/provider"
 )
 
 // Serve the provider against Pulumi's Provider protocol.
-func main() { p.RunProvider(xyz.Name, xyz.Version, xyz.Provider()) }
+func main() { p.RunProvider(ibm-api-connect.Name, ibm-api-connect.Version, ibm-api-connect.Provider()) }
