@@ -7,9 +7,9 @@ using System.Collections.Immutable;
 using System.Threading.Tasks;
 using Pulumi.Serialization;
 
-namespace Pulumi.Xyz
+namespace Pulumi.IbmApiConnect
 {
-    [XyzResourceType("ibm-api-connect:index:Random")]
+    [IbmApiConnectResourceType("ibm-api-connect:index:Random")]
     public partial class Random : global::Pulumi.CustomResource
     {
         [Output("length")]

@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi IbmApiConnect Resource Provider
 
 PACK             := ibm-api-connect
 PACKDIR          := sdk
 PROJECT          := github.com/pulumi/pulumi-ibm-api-connect
 NODE_MODULE_NAME := @pulumi/ibm-api-connect
-NUGET_PKG_NAME   := Pulumi.Xyz
+NUGET_PKG_NAME   := Pulumi.IbmApiConnect
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)

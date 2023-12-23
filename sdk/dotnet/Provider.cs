@@ -7,9 +7,9 @@ using System.Collections.Immutable;
 using System.Threading.Tasks;
 using Pulumi.Serialization;
 
-namespace Pulumi.Xyz
+namespace Pulumi.IbmApiConnect
 {
-    [XyzResourceType("pulumi:providers:ibm-api-connect")]
+    [IbmApiConnectResourceType("pulumi:providers:ibm-api-connect")]
     public partial class Provider : global::Pulumi.ProviderResource
     {
         /// <summary>
